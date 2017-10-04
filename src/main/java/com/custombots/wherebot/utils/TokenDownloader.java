@@ -13,7 +13,7 @@ public final class TokenDownloader {
         try {
             StringBuilder sb = new StringBuilder();
 
-            FileReader reader = new FileReader(new File(TokenDownloader.class.getResource("Token.properties").toURI()));
+            FileReader reader = new FileReader(new File(TokenDownloader.class.getResource("/resource/Token.properties").toURI()));
             while (reader.ready()){
                 sb.append(reader.read());
             }

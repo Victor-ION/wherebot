@@ -14,8 +14,8 @@ import com.pengrad.telegrambot.response.BaseResponse;
 import java.util.List;
 
 public class MainApp {
-//    private final static String TOKEN = "320896835:AAHhPDVYBEr_xXd8mUhPKuCuSLxRaxvP6eQ";
-    private final static String TOKEN = TokenDownloader.getToken();
+    private final static String TOKEN = "320896835:AAHhPDVYBEr_xXd8mUhPKuCuSLxRaxvP6eQ";
+//    private final static String TOKEN = TokenDownloader.getToken();
     private static TelegramBot bot;
 
 

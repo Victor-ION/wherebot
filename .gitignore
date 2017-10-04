@@ -1,1 +1,4 @@
-src/main/resources/Token.properties
+wherebot.iml
+.idea/
+target/
+Token.properties
