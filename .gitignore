@@ -1,4 +1,4 @@
 wherebot.iml
 .idea/
 target/
-Token.properties
+src/main/java/com/custombots/wherebot/utils/token.properties

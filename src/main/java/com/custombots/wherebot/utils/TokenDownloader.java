@@ -7,20 +7,22 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Properties;
 
 public final class TokenDownloader {
-    public static String getToken(){
-        try {
-            StringBuilder sb = new StringBuilder();
+    public static String getToken() {
+        String token = "";
 
-            FileReader reader = new FileReader(new File(TokenDownloader.class.getResource("/resource/Token.properties").toURI()));
-            while (reader.ready()){
-                sb.append(reader.read());
-            }
-            return sb.toString();
-        } catch (IOException | URISyntaxException e) {
+        try {
+            Properties properties = new Properties();
+
+            FileReader reader = new FileReader("src/main/java/com/custombots/wherebot/utils/token.properties");
+            properties.load(reader);
+//            FileReader reader = new FileReader(new File(TokenDownloader.class.getResource("/resource/Token.properties").toURI()));
+            token = properties.getProperty("token");
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        return token;
     }
 }
