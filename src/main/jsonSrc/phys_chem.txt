@@ -1,0 +1,103 @@
+{
+  "list" : [ {
+    "name" : "Monday",
+    "lessons" : [ {
+      "name" : "Фіз.мет.(Л)",
+      "timeStr" : "08-20",
+      "durationInMinutes" : 120,
+      "classroom" : "518"
+    }, {
+      "name" : "Гетер. каталіз",
+      "timeStr" : "09-50",
+      "durationInMinutes" : 120,
+      "classroom" : "501"
+    }, {
+      "name" : "Гетер. каталіз",
+      "timeStr" : "11-30",
+      "durationInMinutes" : 120,
+      "classroom" : "317a"
+    } ]
+  }, {
+    "name" : "Tuesday",
+    "lessons" : [ {
+      "name" : "Екоправозн./Правозн.",
+      "timeStr" : "08-20",
+      "durationInMinutes" : 120,
+      "classroom" : "316/228"
+    }, {
+      "name" : "Фіз.мет.",
+      "timeStr" : "09-50",
+      "durationInMinutes" : 120,
+      "classroom" : "406"
+    }, {
+      "name" : "---",
+      "timeStr" : "11-30",
+      "durationInMinutes" : 120,
+      "classroom" : "---"
+    }, {
+      "name" : "Мет.виклад.",
+      "timeStr" : "12-50",
+      "durationInMinutes" : 120,
+      "classroom" : "228а"
+    } ]
+  }, {
+    "name" : "Wednesday",
+    "lessons" : [ {
+      "name" : "Кол.хім./ Метод.викл.(Л)",
+      "timeStr" : "08-20",
+      "durationInMinutes" : 120,
+      "classroom" : "316"
+    }, {
+      "name" : "Кінетика",
+      "timeStr" : "09-50",
+      "durationInMinutes" : 120,
+      "classroom" : "407"
+    }, {
+      "name" : "Кінетика",
+      "timeStr" : "11-30",
+      "durationInMinutes" : 120,
+      "classroom" : "407"
+    } ]
+  }, {
+    "name" : "Thursday",
+    "lessons" : [ {
+      "name" : "Екотехн. (Л)",
+      "timeStr" : "08-20",
+      "durationInMinutes" : 120,
+      "classroom" : "316"
+    }, {
+      "name" : "Екотехн.",
+      "timeStr" : "09-50",
+      "durationInMinutes" : 120,
+      "classroom" : "316"
+    }, {
+      "name" : "Матеріалозн.",
+      "timeStr" : "11-30",
+      "durationInMinutes" : 120,
+      "classroom" : "501"
+    }, {
+      "name" : "Матеріалозн.",
+      "timeStr" : "12-50",
+      "durationInMinutes" : 120,
+      "classroom" : "501"
+    } ]
+  }, {
+    "name" : "Friday",
+    "lessons" : [ {
+      "name" : "Ізотопи",
+      "timeStr" : "08-20",
+      "durationInMinutes" : 120,
+      "classroom" : "316"
+    }, {
+      "name" : "Колоїдна хім.",
+      "timeStr" : "09-50",
+      "durationInMinutes" : 120,
+      "classroom" : "308"
+    }, {
+      "name" : "Колоїдна хім.",
+      "timeStr" : "11-30",
+      "durationInMinutes" : 120,
+      "classroom" : "308"
+    } ]
+  } ]
+}

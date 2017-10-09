@@ -1,4 +1,4 @@
-package com.custombots.wherebot.command;
+package com.custombots.wherebot.commands;
 
 import com.custombots.wherebot.commands.CommandsExecutor;
 import org.junit.Assert;
